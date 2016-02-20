@@ -1,5 +1,7 @@
 <b>A simple material design based color picker library.</b>
 
+![alt tag](http://im.ezgif.com/tmp/ezgif-1130086348.gif)
+
 <h2>How to use:</h2>
 <br>
 1-Add gradle dependency to your module's build.gradle file:

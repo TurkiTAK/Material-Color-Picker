@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'materialcolorpicker'
+
+    publishedGroupId = 'com.turki-alkhateeb'
+    libraryName = 'Material Color Picker'
+    artifact = 'materialcolorpicker'
+
+    libraryDescription = 'An android material design based color picker dialog'
+
+    siteUrl = 'https://github.com/TurkiAlkhatib/Material-Color-Picker'
+    gitUrl  = 'https://github.com/TurkiAlkhatib/Material-Color-Picker.git'
+    libraryVersion = '1.0.1'
+
+    developerId = 'TurkiAlkhatib'
+    developerName = 'Turki Alkhateeb'
+    developerEmail = 'turki.khateeb@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    group = 'com.TurkiAlkhateeb.materialcolorpicker'
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:gridlayout-v7:23.1.1'
+}
+
+
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle'
+apply from: 'https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle'

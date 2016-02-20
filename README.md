@@ -8,7 +8,7 @@
 
         dependencies{
         //other dependencies here
-        compile 'com.turki-alkhateeb:materialcolorpicker:1.0.1'
+        compile 'com.turki-alkhateeb:materialcolorpicker:1.0.7'
         }
 
 

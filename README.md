@@ -34,7 +34,7 @@ And you are ready to go!!
 New features will be coming later.
 
 
-<h4>My Twitter account:</h4>
+<h4>Follow me on Twitter:</h4>
 <a <a href="https://twitter.com/turkikhatib">@TurkiKhatib </a>
 
 

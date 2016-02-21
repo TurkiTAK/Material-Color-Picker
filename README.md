@@ -34,6 +34,8 @@ And you are ready to go!!
 New features will be coming later.
 
 
+<h4>My Twitter account:</h4>
+<a <a href="https://twitter.com/turkikhatib">@TurkiKhatib </a>
 
 
 <h2>License:</h2>

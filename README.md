@@ -1,6 +1,6 @@
 <b>A simple material design based color picker library.</b>
 
-![alt tag](http://im.ezgif.com/tmp/ezgif-1130086348.gif)
+![alt tag](https://raw.github.com/TurkiAlkhatib/Material-Color-Picker/master/ezgif.com-resize.gif)
 
 <h2>How to use:</h2>
 <br>

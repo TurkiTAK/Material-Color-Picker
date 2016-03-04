@@ -10,7 +10,7 @@
 
         dependencies{
         //other dependencies here
-        compile 'com.turki-alkhateeb:materialcolorpicker:1.1.0'
+        compile 'com.turki-alkhateeb:materialcolorpicker:1.0.7'
         }
 
 

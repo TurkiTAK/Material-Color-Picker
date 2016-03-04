@@ -10,7 +10,7 @@
 
         dependencies{
         //other dependencies here
-        compile 'com.turki-alkhateeb:materialcolorpicker:1.1.0'
+        compile 'com.turki-alkhateeb:materialcolorpicker:1.0.7'
         }
 
 
@@ -35,8 +35,6 @@ And you are ready to go!!
 New features will be coming later.
 
 
-<h4>Follow me on Twitter:</h4>
-<a <a href="https://twitter.com/turkikhatib">@TurkiKhatib </a>
 
 
 <h2>License:</h2>

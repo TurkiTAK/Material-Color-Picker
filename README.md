@@ -10,7 +10,7 @@
 
         dependencies{
         //other dependencies here
-        compile 'com.turki-alkhateeb:materialcolorpicker:1.0.7'
+        compile 'com.turki-alkhateeb:materialcolorpicker:1.1.0'
         }
 
 
@@ -18,14 +18,15 @@
 
 
         ColorChooserDialog dialog = new ColorChooserDialog(context);
-        colorChooserDialog.setColorListener(new ColorListener() {
+        dialog.setTitle(R.string.title);
+        dialog.setColorListener(new ColorListener() {
             @Override
             public void OnColorClick(View v, int color) {
                 //do whatever you want to with the values
             }
         });
         //customize the dialog however you want
-        colorChooserDialog.show();
+        dialog.show();
 
 
 
